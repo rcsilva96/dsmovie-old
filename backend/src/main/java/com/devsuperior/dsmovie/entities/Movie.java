@@ -1,10 +1,18 @@
 package com.devsuperior.dsmovie.entities;
 
+<<<<<<< HEAD
 import jakarta.persistence.Entity;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+=======
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+>>>>>>> 29d6537 (Domain model, database seed)
 
 @Entity
 @Table(name = "tb_movie")
